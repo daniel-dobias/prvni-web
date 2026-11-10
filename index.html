@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dobi – AI automatizace a weby pro malé firmy</title>
+  <meta name="description" content="Dobi – AI automatizace a tvorba webů pro malé firmy. Ušetřete čas a získejte víc zákazníků.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="logo">dobi<span>.</span></a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#o-mne">O mně</a></li>
+          <li><a href="#sluzby">Služby</a></li>
+          <li><a href="#kontakt" class="btn btn--small">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">AI automatizace · Weby · Malé firmy</p>
+        <h1>Ahoj, jsem <span class="gradient">Dobi</span>.<br>Pomáhám malým firmám pracovat chytřeji.</h1>
+        <p class="hero__lead">
+          Stavím moderní weby a AI automatizace, které za vás vyřídí rutinu –
+          abyste měli víc času na to, co vás opravdu baví.
+        </p>
+        <div class="hero__actions">
+          <a href="#kontakt" class="btn">Pojďme to probrat</a>
+          <a href="#sluzby" class="btn btn--ghost">Co nabízím</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="o-mne" class="section">
+      <div class="container about">
+        <div class="about__avatar" aria-hidden="true">D</div>
+        <div>
+          <h2 class="section__title">O mně</h2>
+          <p>
+            Jsem Dobi a věnuju se propojování umělé inteligence s každodenní prací
+            malých firem. Věřím, že chytré nástroje nejsou jen pro velké korporace –
+            i živnostník nebo malý tým může ušetřit desítky hodin měsíčně.
+          </p>
+          <p>
+            Zakládám si na jednoduchosti: žádný zbytečný technický žargon, ale řešení,
+            která fungují, dávají smysl a dají se snadno používat.
+          </p>
+          <ul class="about__stats">
+            <li><strong>AI</strong><span>automatizace</span></li>
+            <li><strong>Web</strong><span>na míru</span></li>
+            <li><strong>1:1</strong><span>osobní přístup</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="sluzby" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Služby</h2>
+        <p class="section__lead">Co pro vás můžu udělat.</p>
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">⚡</div>
+            <h3>AI automatizace</h3>
+            <p>Automatické zpracování e-mailů, objednávek, faktur či poptávek. Propojím vaše nástroje, aby si práci předávaly samy.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🌐</div>
+            <h3>Tvorba webů</h3>
+            <p>Rychlé, moderní a responzivní weby, které dobře vypadají na mobilu i počítači a přivádějí nové zákazníky.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">💬</div>
+            <h3>AI chatboti</h3>
+            <p>Chytrý asistent na váš web, který odpoví zákazníkům na časté dotazy kdykoliv – i o víkendu a v noci.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🧭</div>
+            <h3>Konzultace</h3>
+            <p>Společně projdeme vaše procesy a najdeme místa, kde vám AI ušetří nejvíc času a peněz.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section">
+      <div class="container contact">
+        <h2 class="section__title">Kontakt</h2>
+        <p class="section__lead">Máte nápad nebo otázku? Napište mi, ozvu se obvykle do 24 hodin.</p>
+        <form class="contact__form" action="mailto:danidobi@icloud.com" method="post" enctype="text/plain">
+          <div class="form__row">
+            <label>
+              Jméno
+              <input type="text" name="jmeno" placeholder="Jan Novák" required>
+            </label>
+            <label>
+              E-mail
+              <input type="email" name="email" placeholder="jan@firma.cz" required>
+            </label>
+          </div>
+          <label>
+            Zpráva
+            <textarea name="zprava" rows="5" placeholder="S čím vám můžu pomoci?" required></textarea>
+          </label>
+          <button type="submit" class="btn">Odeslat zprávu</button>
+        </form>
+        <p class="contact__alt">Nebo rovnou na <a href="mailto:danidobi@icloud.com">danidobi@icloud.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Dobi · AI automatizace a weby pro malé firmy</p>
+    </div>
+  </footer>
+
+</body>
+</html>
